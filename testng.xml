@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite">
+    <test name="test suite1" verbose="2" enabled="true">
+        <classes>
+            <class name="test.RegistrationPageTest"/>
+        </classes>
+    </test>
+    <test name="test suite2" verbose="2" enabled="true">
+        <classes>
+            <class name="test.LoginRegisteredUserTest">
+            </class>
+        </classes>
+    </test>
+    <test name="test suite3" verbose="2" enabled="true">
+        <classes>
+            <class name="test.SearchProductsPageTest">
+            </class>
+        </classes>
+    </test>
+    <test name="test suite4" verbose="2" enabled="true">
+        <classes>
+            <class name="test.ProductAddToCartTest">
+            </class>
+        </classes>
+    </test>
+    <test name="test suite5" verbose="2" enabled="true">
+        <classes>
+            <class name="test.CheckoutTest">
+            </class>
+        </classes>
+    </test>
+</suite>

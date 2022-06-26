@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test suite5"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="171.789">
+    <properties></properties>
+
+
+
+            <testcase
+                name="giftCardCheck"
+                time="30.228"
+                classname="test.CheckoutTest">
+            </testcase>
+            <testcase
+                name="completingCheckOutProcess"
+                time="61.354"
+                classname="test.CheckoutTest">
+            </testcase>
+            <testcase
+                name="emptyCheckOutProcess"
+                time="40.801"
+                classname="test.CheckoutTest">
+            </testcase>
+            <testcase
+                name="paymentOptions"
+                time="39.406"
+                classname="test.CheckoutTest">
+            </testcase>
+</testsuite>
